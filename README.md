@@ -10,6 +10,7 @@ This is a simple implementation of the classic game Tetris using Java. It provid
 
 To run this Tetris game, you will need:
 
+- Apache NetBeans 19
 - Java Development Kit (JDK 21) installed on your system
 - Git (optional, for cloning the repository)
 
@@ -20,17 +21,27 @@ You can clone this repository using Git:
 ```bash
 git clone https://github.com/yourusername/tetris-java.git
 ```
-Compile and Run
-Navigate to the project directory and compile the Java source files:
+If you want to open and run your Java project using NetBeans, follow these steps:
 
-```bash
-javac Tetris.java
-```
-Then, run the game:
+1. Open NetBeans:
+Launch NetBeans on your computer.
 
-```bash
-java Tetris
-```
+2. Open Your Project:
+In NetBeans, go to File > Open Project...
+Navigate to the directory where your Tetris Java project is located and select the project folder. Click "Open Project."
+
+3. Configure the Main Class:
+Right-click on your project in the Projects panel (usually on the left side of the NetBeans window).
+Select "Properties" from the context menu.
+In the Project Properties window, go to the "Run" category.
+In the "Main Class" field, specify the main class of your Tetris game (usually Tetris). Make sure it's the class with the main method.
+Click "OK" to save the changes.
+
+4. Compile and Run:
+Now, you can simply click the "Run Project" button (usually a green triangle) in the NetBeans toolbar, or you can use the keyboard shortcut (commonly F6).
+NetBeans will compile your project and run it, executing the main class you specified.
+That's it! NetBeans will compile and run your Tetris game for you, and you can play it within the NetBeans environment.
+
 How to Play
 Use the A and D keys to move the Tetrimino left and right.
 Press the W key to rotate the Tetrimino.
